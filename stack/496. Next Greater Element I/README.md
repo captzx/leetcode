@@ -1,0 +1,2 @@
+用map记录nums中每个元素的下一个较大值  
+遍历findNums获取map中的对应值即可

@@ -1,0 +1,2 @@
+设立指向head的前后两个指针rearNode,frontNode， 一个计数器counter  
+frontNode每向前两步，rearNode向前一步，当frontNode为nullptr时，rearNode即为中间点

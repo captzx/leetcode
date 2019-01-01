@@ -1,0 +1,2 @@
+思路和MySatck差不多，将元素保存在主队列push_queue中，pop_queue为辅队列，从push_queue中取元素，放置pop_queue中  
+保留最后一个元素(其为栈顶元素)后，再将pop_queue中的元素放回push_queue中

@@ -4,7 +4,7 @@
 std::vector<std::vector<int>> generateMatrix(int n) {
 	std::vector<std::vector<int>> matrix;
 	matrix.resize(n);
-	for (int i = 0; i < matrix.size(); ++i) {
+	for (size_t i = 0; i < matrix.size(); ++i) {
 		matrix[i].resize(n);
 	}
 	int xmax = n - 1, ymax = n - 1;

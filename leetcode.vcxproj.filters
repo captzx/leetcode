@@ -21,139 +21,160 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="tree\100. Same Tree\isSameTree.cpp">
+    <ClCompile Include="1. Two Sum\twoSum.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="stack\20. Valid Parentheses\isValid.cpp">
+    <ClCompile Include="283. Move Zeroes\moveZeroes.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="stack\155. Min Stack\MinStack.cpp">
+    <ClCompile Include="268. Missing Number\missingNumber.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="stack\225. Implement Stack using Queues\MyStack.cpp">
+    <ClCompile Include="219. Contains Duplicate II\containsNearbyDuplicate.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="stack\232. Implement Queue using Stacks\MyQueue.cpp">
+    <ClCompile Include="217. Contains Duplicate\containsDuplicate.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="stack\496. Next Greater Element I\nextGreaterElement.cpp">
+    <ClCompile Include="189. Rotate Array\rotate.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="stack\682. Baseball Game\calPoints.cpp">
+    <ClCompile Include="169. Majority Element\majorityElement.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="stack\844. Backspace String Compare\backspaceCompare.cpp">
+    <ClCompile Include="167. Two Sum II\twoSum2.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="array\1. Two Sum\twoSum.cpp">
+    <ClCompile Include="122. Best Time to Buy and Sell Stock II\maxProfit2.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="array\4\generateMatrix.cpp">
+    <ClCompile Include="121. Best Time to Buy and Sell Stock\maxProfit.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="array\4\spiralOrder.cpp">
+    <ClCompile Include="119. Pascal%27s Triangle II\getRow.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="array\26. Remove Duplicates from Sorted Array\removeDuplicates.cpp">
+    <ClCompile Include="118. Pascal%27s Triangle\generate.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="array\27. Remove Element\removeElement.cpp">
+    <ClCompile Include="88. Merge Sorted Array\merge.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="array\35. Search Insert Position\searchInsert.cpp">
+    <ClCompile Include="66. Plus One\plusOne.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="array\53. Maximum Subarray\maxSubArray.cpp">
+    <ClCompile Include="61. Rotate List\rotateRight.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="array\66. Plus One\plusOne.cpp">
+    <ClCompile Include="60. Permutation Sequence\getPermutation.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="array\88. Merge Sorted Array\merge.cpp">
+    <ClCompile Include="59. Spiral Matrix II\generateMatrix.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="array\118. Pascal%27s Triangle\generate.cpp">
+    <ClCompile Include="54. Spiral Matrix\spiralOrder.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="array\119. Pascal%27s Triangle II\getRow.cpp">
+    <ClCompile Include="53. Maximum Subarray\maxSubArray.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="array\121. Best Time to Buy and Sell Stock\maxProfit.cpp">
+    <ClCompile Include="35. Search Insert Position\searchInsert.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="array\122. Best Time to Buy and Sell Stock II\maxProfit2.cpp">
+    <ClCompile Include="27. Remove Element\removeElement.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="array\167. Two Sum II\twoSum2.cpp">
+    <ClCompile Include="26. Remove Duplicates from Sorted Array\removeDuplicates.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="array\169. Majority Element\majorityElement.cpp">
+    <ClCompile Include="559. Maximum Depth of N-ary Tree\maxDepth.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="array\189. Rotate Array\rotate.cpp">
+    <ClCompile Include="783. Minimum Distance Between BST Nodes\minDiffInBST.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="array\217. Contains Duplicate\containsDuplicate.cpp">
+    <ClCompile Include="897. Increasing Order Search Tree\increasingBST.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="array\219. Contains Duplicate II\containsNearbyDuplicate.cpp">
+    <ClCompile Include="62. Unique Paths\uniquePaths.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="array\268. Missing Number\missingNumber.cpp">
+    <ClCompile Include="63. Unique Paths II\uniquePathsWithObstacles.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="array\283. Move Zeroes\moveZeroes.cpp">
+    <ClCompile Include="64. Minimum Path Sum\minPathSum.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="bfs\559. Maximum Depth of N-ary Tree\maxDepth.cpp">
+    <ClCompile Include="70. Climbing Stairs\climbStairs.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="bst\783. Minimum Distance Between BST Nodes\minDiffInBST.cpp">
+    <ClCompile Include="2. Add Two Numbers\addTwoNumbers.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="bst\897. Increasing Order Search Tree\increasingBST.cpp">
+    <ClCompile Include="21. Merge Two Sorted Lists\mergeTwoLists.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="list\2. Add Two Numbers\addTwoNumbers.cpp">
+    <ClCompile Include="83. Remove Duplicates from Sorted List\deleteDuplicates.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="list\21. Merge Two Sorted Lists\mergeTwoLists.cpp">
+    <ClCompile Include="141. Linked List Cycle\hasCycle.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="list\83. Remove Duplicates from Sorted List\deleteDuplicates.cpp">
+    <ClCompile Include="160. Intersection of Two Linked Lists\getIntersectionNode.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="list\141. Linked List Cycle\hasCycle.cpp">
+    <ClCompile Include="203. Remove Linked List Elements\removeElements.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="list\160. Intersection of Two Linked Lists\getIntersectionNode.cpp">
+    <ClCompile Include="206. Reverse Linked List\reverseList.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="list\203. Remove Linked List Elements\removeElements.cpp">
+    <ClCompile Include="234. Palindrome Linked List\isPalindrome.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="list\206. Reverse Linked List\reverseList.cpp">
+    <ClCompile Include="237. Delete Node in a Linked List\deleteNode.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="list\234. Palindrome Linked List\isPalindrome.cpp">
+    <ClCompile Include="876. Middle of the Linked List\middleNode.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="list\237. Delete Node in a Linked List\deleteNode.cpp">
+    <ClCompile Include="136. Single Number\singleNumber.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="list\876. Middle of the Linked List\middleNode.cpp">
+    <ClCompile Include="202. Happy Number\isHappy.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="map\136. Single Number\singleNumber.cpp">
+    <ClCompile Include="204. Count Primes\countPrimes.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="map\202. Happy Number\isHappy.cpp">
+    <ClCompile Include="205. Isomorphic Strings\isIsomorphic.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="map\204. Count Primes\countPrimes.cpp">
+    <ClCompile Include="20. Valid Parentheses\isValid.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="map\205. Isomorphic Strings\isIsomorphic.cpp">
+    <ClCompile Include="71. Simplify Path\simplifyPath.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="155. Min Stack\MinStack.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="225. Implement Stack using Queues\MyStack.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="232. Implement Queue using Stacks\MyQueue.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="496. Next Greater Element I\nextGreaterElement.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="682. Baseball Game\calPoints.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="844. Backspace String Compare\backspaceCompare.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="100. Same Tree\isSameTree.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -161,182 +182,212 @@
     <ClInclude Include="common.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="tree\100. Same Tree\isSameTree.h">
+    <ClInclude Include="1. Two Sum\twoSum.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="stack\20. Valid Parentheses\isValid.h">
+    <ClInclude Include="283. Move Zeroes\moveZeroes.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="stack\155. Min Stack\MinStack.h">
+    <ClInclude Include="268. Missing Number\missingNumber.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="stack\225. Implement Stack using Queues\MyStack.h">
+    <ClInclude Include="219. Contains Duplicate II\containsNearbyDuplicate.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="stack\232. Implement Queue using Stacks\MyQueue.h">
+    <ClInclude Include="217. Contains Duplicate\containsDuplicate.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="stack\496. Next Greater Element I\nextGreaterElement.h">
+    <ClInclude Include="189. Rotate Array\rotate.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="stack\682. Baseball Game\calPoints.h">
+    <ClInclude Include="169. Majority Element\majorityElement.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="stack\844. Backspace String Compare\backspaceCompare.h">
+    <ClInclude Include="167. Two Sum II\twoSum2.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="array\1. Two Sum\twoSum.h">
+    <ClInclude Include="122. Best Time to Buy and Sell Stock II\maxProfit2.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="array\4\generateMatrix.h">
+    <ClInclude Include="121. Best Time to Buy and Sell Stock\maxProfit.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="array\4\spiralOrder.h">
+    <ClInclude Include="119. Pascal%27s Triangle II\getRow.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="array\26. Remove Duplicates from Sorted Array\removeDuplicates.h">
+    <ClInclude Include="118. Pascal%27s Triangle\generate.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="array\27. Remove Element\removeElement.h">
+    <ClInclude Include="88. Merge Sorted Array\merge.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="array\35. Search Insert Position\searchInsert.h">
+    <ClInclude Include="66. Plus One\plusOne.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="array\53. Maximum Subarray\maxSubArray.h">
+    <ClInclude Include="61. Rotate List\rotateRight.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="array\66. Plus One\plusOne.h">
+    <ClInclude Include="60. Permutation Sequence\getPermutation.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="array\88. Merge Sorted Array\merge.h">
+    <ClInclude Include="59. Spiral Matrix II\generateMatrix.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="array\118. Pascal%27s Triangle\generate.h">
+    <ClInclude Include="54. Spiral Matrix\spiralOrder.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="array\119. Pascal%27s Triangle II\getRow.h">
+    <ClInclude Include="53. Maximum Subarray\maxSubArray.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="array\121. Best Time to Buy and Sell Stock\maxProfit.h">
+    <ClInclude Include="35. Search Insert Position\searchInsert.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="array\122. Best Time to Buy and Sell Stock II\maxProfit2.h">
+    <ClInclude Include="27. Remove Element\removeElement.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="array\167. Two Sum II\twoSum2.h">
+    <ClInclude Include="26. Remove Duplicates from Sorted Array\removeDuplicates.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="array\169. Majority Element\majorityElement.h">
+    <ClInclude Include="559. Maximum Depth of N-ary Tree\maxDepth.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="array\189. Rotate Array\rotate.h">
+    <ClInclude Include="783. Minimum Distance Between BST Nodes\minDiffInBST.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="array\217. Contains Duplicate\containsDuplicate.h">
+    <ClInclude Include="897. Increasing Order Search Tree\increasingBST.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="array\219. Contains Duplicate II\containsNearbyDuplicate.h">
+    <ClInclude Include="62. Unique Paths\uniquePaths.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="array\268. Missing Number\missingNumber.h">
+    <ClInclude Include="63. Unique Paths II\uniquePathsWithObstacles.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="array\283. Move Zeroes\moveZeroes.h">
+    <ClInclude Include="64. Minimum Path Sum\minPathSum.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="bfs\559. Maximum Depth of N-ary Tree\maxDepth.h">
+    <ClInclude Include="70. Climbing Stairs\climbStairs.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="bst\783. Minimum Distance Between BST Nodes\minDiffInBST.h">
+    <ClInclude Include="2. Add Two Numbers\addTwoNumbers.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="bst\897. Increasing Order Search Tree\increasingBST.h">
+    <ClInclude Include="21. Merge Two Sorted Lists\mergeTwoLists.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="list\2. Add Two Numbers\addTwoNumbers.h">
+    <ClInclude Include="83. Remove Duplicates from Sorted List\deleteDuplicates.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="list\21. Merge Two Sorted Lists\mergeTwoLists.h">
+    <ClInclude Include="141. Linked List Cycle\hasCycle.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="list\83. Remove Duplicates from Sorted List\deleteDuplicates.h">
+    <ClInclude Include="160. Intersection of Two Linked Lists\getIntersectionNode.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="list\141. Linked List Cycle\hasCycle.h">
+    <ClInclude Include="203. Remove Linked List Elements\removeElements.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="list\160. Intersection of Two Linked Lists\getIntersectionNode.h">
+    <ClInclude Include="206. Reverse Linked List\reverseList.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="list\203. Remove Linked List Elements\removeElements.h">
+    <ClInclude Include="234. Palindrome Linked List\isPalindrome.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="list\206. Reverse Linked List\reverseList.h">
+    <ClInclude Include="237. Delete Node in a Linked List\deleteNode.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="list\234. Palindrome Linked List\isPalindrome.h">
+    <ClInclude Include="876. Middle of the Linked List\middleNode.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="list\237. Delete Node in a Linked List\deleteNode.h">
+    <ClInclude Include="136. Single Number\singleNumber.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="list\876. Middle of the Linked List\middleNode.h">
+    <ClInclude Include="202. Happy Number\isHappy.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="map\136. Single Number\singleNumber.h">
+    <ClInclude Include="204. Count Primes\countPrimes.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="map\202. Happy Number\isHappy.h">
+    <ClInclude Include="205. Isomorphic Strings\isIsomorphic.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="map\204. Count Primes\countPrimes.h">
+    <ClInclude Include="20. Valid Parentheses\isValid.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="map\205. Isomorphic Strings\isIsomorphic.h">
+    <ClInclude Include="71. Simplify Path\simplifyPath.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="155. Min Stack\MinStack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="225. Implement Stack using Queues\MyStack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="232. Implement Queue using Stacks\MyQueue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="496. Next Greater Element I\nextGreaterElement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="682. Baseball Game\calPoints.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="844. Backspace String Compare\backspaceCompare.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="100. Same Tree\isSameTree.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <None Include="array\283. Move Zeroes\README.md" />
-    <None Include="array\268. Missing Number\README.md" />
-    <None Include="array\219. Contains Duplicate II\README.md" />
-    <None Include="array\217. Contains Duplicate\README.md" />
-    <None Include="array\189. Rotate Array\README.md" />
-    <None Include="array\169. Majority Element\README.md" />
-    <None Include="array\167. Two Sum II\README.md" />
-    <None Include="array\122. Best Time to Buy and Sell Stock II\README.md" />
-    <None Include="array\121. Best Time to Buy and Sell Stock\README.md" />
-    <None Include="array\119. Pascal%27s Triangle II\README.md" />
-    <None Include="array\118. Pascal%27s Triangle\README.md" />
-    <None Include="array\88. Merge Sorted Array\README.md" />
-    <None Include="array\66. Plus One\README.md" />
-    <None Include="array\53. Maximum Subarray\README.md" />
-    <None Include="array\35. Search Insert Position\README.md" />
-    <None Include="array\27. Remove Element\README.md" />
-    <None Include="array\26. Remove Duplicates from Sorted Array\README.md" />
-    <None Include="bfs\559. Maximum Depth of N-ary Tree\README.md" />
-    <None Include="bst\783. Minimum Distance Between BST Nodes\README.md" />
-    <None Include="bst\897. Increasing Order Search Tree\README.md" />
-    <None Include="list\2. Add Two Numbers\README.md" />
-    <None Include="list\21. Merge Two Sorted Lists\README.md" />
-    <None Include="list\83. Remove Duplicates from Sorted List\README.md" />
-    <None Include="list\141. Linked List Cycle\README.md" />
-    <None Include="list\160. Intersection of Two Linked Lists\README.md" />
-    <None Include="list\203. Remove Linked List Elements\README.md" />
-    <None Include="list\206. Reverse Linked List\README.md" />
-    <None Include="list\234. Palindrome Linked List\README.md" />
-    <None Include="list\237. Delete Node in a Linked List\README.md" />
-    <None Include="list\876. Middle of the Linked List\README.md" />
-    <None Include="map\136. Single Number\README.md" />
-    <None Include="map\202. Happy Number\README.md" />
-    <None Include="map\205. Isomorphic Strings\README.md" />
-    <None Include="stack\20. Valid Parentheses\README.md" />
-    <None Include="stack\155. Min Stack\README.md" />
-    <None Include="stack\225. Implement Stack using Queues\README.md" />
-    <None Include="stack\232. Implement Queue using Stacks\README.md" />
-    <None Include="stack\496. Next Greater Element I\README.md" />
-    <None Include="stack\682. Baseball Game\README.md" />
-    <None Include="stack\844. Backspace String Compare\README.md" />
+    <None Include="283. Move Zeroes\README.md" />
+    <None Include="268. Missing Number\README.md" />
+    <None Include="219. Contains Duplicate II\README.md" />
+    <None Include="217. Contains Duplicate\README.md" />
+    <None Include="189. Rotate Array\README.md" />
+    <None Include="169. Majority Element\README.md" />
+    <None Include="167. Two Sum II\README.md" />
+    <None Include="122. Best Time to Buy and Sell Stock II\README.md" />
+    <None Include="121. Best Time to Buy and Sell Stock\README.md" />
+    <None Include="119. Pascal%27s Triangle II\README.md" />
+    <None Include="118. Pascal%27s Triangle\README.md" />
+    <None Include="88. Merge Sorted Array\README.md" />
+    <None Include="66. Plus One\README.md" />
+    <None Include="61. Rotate List\Readme.md" />
+    <None Include="60. Permutation Sequence\Readme.md" />
+    <None Include="59. Spiral Matrix II\Readme.md" />
+    <None Include="54. Spiral Matrix\Readme.md" />
+    <None Include="53. Maximum Subarray\README.md" />
+    <None Include="35. Search Insert Position\README.md" />
+    <None Include="27. Remove Element\README.md" />
+    <None Include="26. Remove Duplicates from Sorted Array\README.md" />
+    <None Include="559. Maximum Depth of N-ary Tree\README.md" />
+    <None Include="783. Minimum Distance Between BST Nodes\README.md" />
+    <None Include="897. Increasing Order Search Tree\README.md" />
+    <None Include="62. Unique Paths\Readme.md" />
+    <None Include="63. Unique Paths II\Readme.md" />
+    <None Include="64. Minimum Path Sum\Readme.md" />
+    <None Include="70. Climbing Stairs\Readme.md" />
+    <None Include="2. Add Two Numbers\README.md" />
+    <None Include="21. Merge Two Sorted Lists\README.md" />
+    <None Include="83. Remove Duplicates from Sorted List\README.md" />
+    <None Include="141. Linked List Cycle\README.md" />
+    <None Include="160. Intersection of Two Linked Lists\README.md" />
+    <None Include="203. Remove Linked List Elements\README.md" />
+    <None Include="206. Reverse Linked List\README.md" />
+    <None Include="234. Palindrome Linked List\README.md" />
+    <None Include="237. Delete Node in a Linked List\README.md" />
+    <None Include="876. Middle of the Linked List\README.md" />
+    <None Include="136. Single Number\README.md" />
+    <None Include="202. Happy Number\README.md" />
+    <None Include="205. Isomorphic Strings\README.md" />
+    <None Include="20. Valid Parentheses\README.md" />
+    <None Include="71. Simplify Path\Readme.md" />
+    <None Include="155. Min Stack\README.md" />
+    <None Include="225. Implement Stack using Queues\README.md" />
+    <None Include="232. Implement Queue using Stacks\README.md" />
+    <None Include="496. Next Greater Element I\README.md" />
+    <None Include="682. Baseball Game\README.md" />
+    <None Include="844. Backspace String Compare\README.md" />
   </ItemGroup>
 </Project>

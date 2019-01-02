@@ -6,6 +6,7 @@
 #include <map>
 #include <string>
 #include <stack>
+#include <cctype>
 
 // Micro Define
 #define SAFEDELETE_POINTER(ptr) if(ptr!=nullptr) delete ptr;

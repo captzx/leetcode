@@ -1,18 +1,21 @@
 #pragma once
-#include <vector>
 #include <iostream>
-#include <algorithm>
-#include <queue>
-#include <map>
+
+#include <vector>
 #include <string>
+#include <queue>
 #include <stack>
+#include <set>
+#include <map>
+
+#include <algorithm>
+
 #include <cctype>
 
 // Micro Define
 #define SAFEDELETE_POINTER(ptr) if(ptr!=nullptr) delete ptr;
 #define SAFEDELETE_TREE(root) if(root)  delete root;	// todo
 
-// Array
 // Array
 template<typename Container>
 void printArray(Container& c) {
@@ -22,6 +25,7 @@ void printArray(Container& c) {
 	}
 	std::cout << std::endl;
 }
+  
 // List
 struct ListNode {
 	int val;
@@ -58,7 +62,6 @@ public:
 	TreeNode(int v);
 	TreeNode(int v, TreeNode* l, TreeNode* r);
 };
-
 
 // Extra
 static const auto __ = []()

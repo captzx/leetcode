@@ -1,4 +1,17 @@
-想用组合数的方法依次求出各项的值，但有个问题就是求33*32*...*16即使longlong类型也不够用  
-只能一边求值一边约数，约数按照质数的顺序一直约，直到满足条件，方法比较笨  
+**119. Pascal's Triangle II**
 
-实际上还是用一般方法，从上往下求值就能求出来而不会存在数据过大的问题
+Given a non-negative index k where k ≤ 33, return the kth index row of the Pascal's triangle.
+
+Note that the row index starts from 0.
+
+In Pascal's triangle, each number is the sum of the two numbers directly above it.
+```
+Example:
+Input: 3
+Output: [1,3,3,1]
+Follow up: Could you optimize your algorithm to use only O(k) extra space?
+```
+
+**Ideas**
+
+* 求组合数公式, 但需要注意中间值过大, 超出类型最大值, 所以需要在中间进行约减

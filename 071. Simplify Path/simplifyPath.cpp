@@ -1,5 +1,5 @@
 #include "common.h"
-#include "simplifyPath.h"
+#include "tag_vector.h"
 
 std::string simplifyPath(std::string path) {
 	std::string res;

@@ -1,5 +1,5 @@
 #include "common.h"
-#include "hasCycle.h"
+#include "tag_linkedlist.h"
 
 bool hasCycle(ListNode *head) {
 	if (!head)return false;

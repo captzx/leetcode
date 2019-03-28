@@ -1,5 +1,5 @@
 #include "common.h"
-#include "removeDuplicates.h"
+#include "tag_vector.h"
 
 int removeDuplicates(std::vector<int>& nums) {
 	if (nums.empty()) return 0;

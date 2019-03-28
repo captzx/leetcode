@@ -1,5 +1,5 @@
 #include "common.h"
-#include "isIsomorphic.h"
+#include "tag_vector.h"
 
 bool isIsomorphic(std::string s, std::string t) {
 	if (s.size() != t.size())return false;

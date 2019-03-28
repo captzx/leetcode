@@ -1,5 +1,5 @@
 #include "common.h"
-#include "merge.h"
+#include "tag_vector.h"
 
 void merge(std::vector<int>& nums1, int m, std::vector<int>& nums2, int n) {
 	int mi = m - 1, ni = n - 1, tail = m - 1 + n;

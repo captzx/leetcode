@@ -1,5 +1,5 @@
 #include "common.h"
-#include "getRow.h"
+#include "tag_vector.h"
 
 
 int c(int m, int n) {
@@ -22,11 +22,12 @@ int c(int m, int n) {
 }
 
 std::vector<int> getRow(int rowIndex) {
-	std::vector<int> result;
-	result.resize(rowIndex + 1);
-	for (int i = 0; i < (rowIndex + 1) / 2; ++i) {
+	std::vector<int> result(rowIndex + 1, 1);
+	for (int i = 0; i <= (rowIndex + 1) / 2; ++i) {
 		result[i] = c(rowIndex, i);
 		result[rowIndex - i] = result[i];
 	}
 	return result;
+	// Runtime: 4 ms, faster than 100.00% of C++ online submissions for Pascal's Triangle II.
+	// Memory Usage : 8.5 MB, less than 63.03% of C++ online submissions for Pascal's Triangle II.
 }

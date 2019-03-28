@@ -1,6 +1,5 @@
 #include "common.h"
-#include "rotate.h"
-
+#include "tag_vector.h"
 
 void rotate(std::vector<int>& nums, int k) {
 	size_t size = nums.size();

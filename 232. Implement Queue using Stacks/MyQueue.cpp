@@ -1,5 +1,5 @@
 #include "common.h"
-#include "MyQueue.h"
+#include "tag_queue.h"
 
 MyQueue::MyQueue(){
 	push_stack = new std::stack<int>();

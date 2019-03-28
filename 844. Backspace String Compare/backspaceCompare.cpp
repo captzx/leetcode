@@ -1,5 +1,5 @@
 #include "common.h"
-#include "backspaceCompare.h"
+#include "tag_vector.h"
 
 bool backspaceCompare(std::string S, std::string T) {
 	return getRealStr(S) == getRealStr(T);

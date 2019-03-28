@@ -1,5 +1,5 @@
 #include "common.h"
-#include "generate.h"
+#include "tag_vector.h"
 
 std::vector<std::vector<int>> generate(int numRows) {
 	std::vector<std::vector<int>> result{ {1}, {1, 1} };

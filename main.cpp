@@ -1,10 +1,11 @@
 #include "common.h"
-#include "073. Set Matrix Zeroes/setZeroes.h"
+#include <iostream>
+#include "tag_vector.h"
 
 using namespace std;
 
 int main() {
-
-	system("pause");
+	std::vector<int> nums = { 1,2,3,4,3,4,2 };
+	cout << singleNumber(nums);
 	return 0;  
 }

@@ -1,5 +1,5 @@
 #include "common.h"
-#include "containsDuplicate.h"
+#include "tag_vector.h"
 
 bool containsDuplicate(std::vector<int>& nums) {
 	std::map<int, bool> numMap;

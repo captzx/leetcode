@@ -1,5 +1,5 @@
 #include "common.h"
-#include "getIntersectionNode.h"
+#include "tag_linkedlist.h"
 
 ListNode *getIntersectionNode(ListNode *headA, ListNode *headB) {
 	ListNode* curANode = headA, *curBNode = headB;

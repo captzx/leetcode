@@ -1,5 +1,5 @@
 #include "common.h"
-#include "containsNearbyDuplicate.h"
+#include "tag_vector.h"
 
 bool containsNearbyDuplicate(std::vector<int>& nums, int k) {
 	std::map<int, int> numMap;

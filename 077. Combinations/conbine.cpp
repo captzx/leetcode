@@ -1,5 +1,5 @@
 #include "common.h"
-#include "combine.h"
+#include "tag_vector.h"
 
 void combine(int n, int k, int start, std::vector<int>& tmp, std::vector<std::vector<int>>& res, const int cn) {
 	if (k == 0) {

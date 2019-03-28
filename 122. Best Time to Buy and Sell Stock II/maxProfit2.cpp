@@ -1,6 +1,5 @@
 #include "common.h"
-#include "maxProfit2.h"
-
+#include "tag_vector.h"
 int maxProfit2(std::vector<int>& prices) {
 	int buy = INT_MAX, buyflag = false;
 	int profit = 0, onceProfit = 0;

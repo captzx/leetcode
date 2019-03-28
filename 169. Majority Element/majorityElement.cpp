@@ -1,5 +1,5 @@
 ﻿#include "common.h"
-#include "majorityElement.h"
+#include "tag_vector.h"
 
 int majorityElement(std::vector<int>& nums) {
 	/*std::map<int, int> elementMap;

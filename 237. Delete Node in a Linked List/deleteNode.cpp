@@ -1,9 +1,0 @@
-#include "common.h"
-#include "tag_linkedlist.h"
-
-void deleteNode(ListNode* node) {
-	ListNode* tmpNode = node->next;
-	node->val = node->next->val;
-	node->next = node->next->next;
-	delete tmpNode;
-}

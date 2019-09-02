@@ -33,37 +33,62 @@
  */
 class Solution {
 public:
-    ListNode* removeElements(ListNode* head, int val) {
-        while (head && head->val == val) {
-            ListNode* tmpNode = head;
-            head = head->next;
-            delete tmpNode;
-        }
-        if (!head)return nullptr;
-        ListNode*prevNode = head, *curNode = head->next;
-        while (curNode) {
-            if (curNode->val == val) {
-                if (curNode->next) {
-                    ListNode* tmpNode = curNode->next;
-                    curNode->val = curNode->next->val;
-                    curNode->next = curNode->next->next;
-                    delete tmpNode;
-                    continue;			// 相同元素继续处理
-                }
-                else {					// 若是最后一个元素
-                    prevNode->next = nullptr;
-                    delete curNode;
-                    curNode = nullptr;
-                }
-            }
-            if (prevNode)prevNode = curNode;	// delete过，所以需要判断是否有效
-            if (curNode)curNode = curNode->next;// delete过，所以需要判断是否有效
-        }
-        return head;
-    }
+    // ListNode* removeElements(ListNode* head, int val) {
+    //     while (head && head->val == val) {
+    //         ListNode* tmpNode = head;
+    //         head = head->next;
+    //         delete tmpNode;
+    //     }
+    //     if (!head)return nullptr;
+    //     ListNode*prevNode = head, *curNode = head->next;
+    //     while (curNode) {
+    //         if (curNode->val == val) {
+    //             if (curNode->next) {
+    //                 ListNode* tmpNode = curNode->next;
+    //                 curNode->val = curNode->next->val;
+    //                 curNode->next = curNode->next->next;
+    //                 delete tmpNode;
+    //                 continue;			// 相同元素继续处理
+    //             }
+    //             else {					// 若是最后一个元素
+    //                 prevNode->next = nullptr;
+    //                 delete curNode;
+    //                 curNode = nullptr;
+    //             }
+    //         }
+    //         if (prevNode)prevNode = curNode;	// delete过，所以需要判断是否有效
+    //         if (curNode)curNode = curNode->next;// delete过，所以需要判断是否有效
+    //     }
+    //     return head;
+    // }
     // √ Accepted
     // √ 65/65 cases passed (28 ms)
     // √ Your runtime beats 65.16 % of cpp submissions
     // √ Your memory usage beats 15.09 % of cpp submissions (11.2 MB)
+
+    ListNode* removeElements(ListNode* head, int val) {
+        auto curNode = head;
+
+        while(curNode && curNode->val == val){
+            curNode = curNode->next;
+        }
+
+        auto result = curNode;
+
+        while(curNode){
+            auto nextNode = curNode->next;
+            while(nextNode && nextNode->val == val){
+                nextNode = nextNode->next;
+            }
+            curNode->next = nextNode;
+            curNode = curNode->next;
+        }
+
+        return result;
+    }
+    // √ Accepted
+    // √ 65/65 cases passed (24 ms)
+    // √ Your runtime beats 94.6 % of cpp submissions
+    // √ Your memory usage beats 100 % of cpp submissions (10.9 MB)
 };
 

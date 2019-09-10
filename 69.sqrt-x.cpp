@@ -42,18 +42,36 @@ class Solution {
 public:
     int mySqrt(int x) {
         if(x <= 1) return x;
-        int b = 0;
-            int e = 50000;
-            while(b <= e){
-                long long v = (e - b)/2;
-                long long v2 = v * v;
-                
-                if(v2 == x) return v;
-                else if(v2 < x) 	b = v + 1;
-                else e = v - 1;
-            }
+        int begin = 1;
+        int end = 1;
+        
+        while(1){
+            long long value = static_cast<long long>(end) * end;
+            
+            if(value == static_cast<long long>(x)) return end;
 
-        return b;
+            if(value < static_cast<long long>(x)){
+                begin = end;
+                end *= 2;
+            }
+            else break;
+        }
+
+        while(1){
+            if(begin == end - 1) return begin;
+
+            int mid = (begin + end) / 2;
+            long long value = static_cast<long long>(mid) * mid;
+            if(value == static_cast<long long>(x)) return mid;
+            else if(value < static_cast<long long>(x)) begin = mid;
+            else end = mid;
+        }
+
+        return begin;
     }
+    // √ Accepted
+    // √ 1017/1017 cases passed (0 ms)
+    // √ Your runtime beats 100 % of cpp submissions
+    // √ Your memory usage beats 82.46 % of cpp submissions (8.3 MB)
 };
 

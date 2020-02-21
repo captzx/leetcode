@@ -40,42 +40,62 @@
 class Solution {
 public:
     struct coord {
-        coord(int x, int y): x(x), y(y){}
+        coord() { }
+        coord(int x, int y) : x(x), y(y) { }
         int x = 0;
         int y = 0;
 
         friend bool operator< (const coord& lhs, const coord& rhs) {
-            if (lhs.x == rhs.x) return lhs.y < rhs.y; 
-            
+            if (lhs.x == rhs.x) return lhs.y < rhs.y;
+
             return lhs.x < rhs.x;
         }
     };
-    bool CheckAdjacent(char cur_c, const coord& crd, char next_c, std::map<char, std::set<coord>>& cxy){
-        auto it = cxy.find(next_c);
-        if (it == cxy.end()) return false;
+    struct info {
+        info() { }
+        info(char c, bool m) : c(c), meet(m) { }
+        char c = '0';
+        bool meet = false;
+    };
 
-        for (const coord& crd2 : it->second) {
-            if ((std::abs(crd.x - crd2.x) + std::abs(crd.y - crd2.y) == 1)) {
-                cxy[cur_c].erase(crd);
-                return true;
-            }
+    void findnextcrd(const coord& crd, char nextchar, std::map<coord, info>& coordinfo, std::vector<coord>& nextcrds) {
+        coord nextcrd = coord(crd.x - 1, crd.y);
+        auto it = coordinfo.find(nextcrd);
+        if (it != coordinfo.end() && coordinfo[nextcrd].meet == false && coordinfo[nextcrd].c == nextchar) {
+            nextcrds.push_back(nextcrd);
         }
 
-        return false;
+        nextcrd = coord(crd.x + 1, crd.y);
+        it = coordinfo.find(nextcrd);
+        if (it != coordinfo.end() && coordinfo[nextcrd].meet == false && coordinfo[nextcrd].c == nextchar) {
+            nextcrds.push_back(nextcrd);
+        }
+
+        nextcrd = coord(crd.x, crd.y - 1);
+        it = coordinfo.find(nextcrd);
+        if (it != coordinfo.end() && coordinfo[nextcrd].meet == false && coordinfo[nextcrd].c == nextchar) {
+            nextcrds.push_back(nextcrd);
+        }
+
+        nextcrd = coord(crd.x, crd.y + 1);
+        it = coordinfo.find(nextcrd);
+        if (it != coordinfo.end() && coordinfo[nextcrd].meet == false && coordinfo[nextcrd].c == nextchar) {
+            nextcrds.push_back(nextcrd);
+        }
     }
 
-    bool isAdjacent(char cur_c, string& word, std::map<char, std::set<coord>>& cxy) {
-        if (word.empty()) return true;
+    bool findpath(char c, const coord& crd, int n, const string& word, std::map<coord, info> coordinfo) {
+        if (n == word.size()) return true;
 
-        char next_c = word.back();
-        word.pop_back();
+        coordinfo[crd].meet = true;
 
-        auto it = cxy.find(cur_c);
-        if (it == cxy.end())return false;
-
-        for (const coord& crd : it->second) {
-            if (!CheckAdjacent(cur_c, crd, next_c, cxy)) continue;
-            return isAdjacent(next_c, word, cxy);
+        std::vector<coord> nextcrds;
+        findnextcrd(crd, word[n], coordinfo, nextcrds);
+        for (const coord& nextcrd : nextcrds) {
+            if (findpath(coordinfo[nextcrd].c, nextcrd, n + 1, word, coordinfo)) {
+                cout << nextcrd.x << " " << nextcrd.y << endl;
+                return true;
+            }
         }
 
         return false;
@@ -84,18 +104,38 @@ public:
     bool exist(vector<vector<char>>& board, string word) {
         if (word.empty()) return true;
 
-        std::map<char, std::set<coord>> cxy;
+        char c = word.front();
+
+        std::map<coord, info> coordinfo;
+        std::vector<coord> begincs;
         for (size_t x = 0; x < board.size(); ++x) {
             for (size_t y = 0; y < board[x].size(); ++y) {
-                cxy[board[x][y]].insert(coord(x, y));
+                coordinfo[coord(x,y)] = info(board[x][y], false);
+
+                if (board[x][y] == c) begincs.push_back(coord(x, y));
             }
         }
 
-        std::reverse(word.begin(), word.end());
-        char c = word.back();
-        word.pop_back();
-        return isAdjacent(c, word, cxy);
+        for(const auto& crd : begincs){
+            if (findpath(c, crd, 1, word, coordinfo)) {
+                cout << crd.x << " " << crd.y << endl;
+                return true;
+            }
+            cout << endl;
+        }
+
+        return false;
     }
+
+    // vector<vector<char>> board{
+	// 	{'a','b','c','d'},
+	// 	{'a','b','c','d'},
+	// 	{'a','b','c','c'}
+	// };
+
+	// bool result = exist(board, "abccdcbbaa");
+
+	// std::cout << result << std::endl;
 };
 // @lc code=end
 
